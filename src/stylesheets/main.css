@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+div {
+  margin: 60px auto 0 auto;
+}
+
+div.phrase {
+  background-color: #DCDCDC;
+  font-size: x-large;
+}
+
+div.phrase span.romaji {
+  display: inline;
+}
+
+
+div.phrase:hover span.romaji {
+  display: none;
+}
+
+div.phrase span.english {
+  display: none;
+}
+
+div.phrase:hover span.english {
+  display: inline;
+}
