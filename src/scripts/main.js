@@ -9,6 +9,9 @@ function init() {
   //     // template.basicActionOnNoun(words),
   //   ]);
   // });
+
+
+  // alert('Reverte ya está mayor y le cuesta recordar lo que quiere decir. ¡Ayúdalo!');
 }
 
 function foo1(argument) {

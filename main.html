@@ -2,53 +2,38 @@
 <html>
   <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <title>Reverte Quiz</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Las Dudas de Reverte</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous"
-      >
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="lib/materialize/css/materialize.min.css" media="screen,projection"/>
+
       <link rel="stylesheet" type="text/css" href="src/stylesheets/main.css"/>
   </head>
 
   <body>
-    <div id="text">
-      Reverte ya está mayor y le cuesta recordar lo que quiere decir. Ayúdalo!
-    </div>
-
     <div id="scoreboard">
       <span>Puntos: </span><span id="points">0</span>
     </div>
 
-    <div id="question" class="alert alert-primary" role="alert">Lorem ipsum dolor sit amet,</div>
-
-    <div>
-      <button id="answer_a" type="button" class="btn btn-outline-info">consectetur adipiscing elit.</button>
-      <button id="answer_b" type="button" class="btn btn-outline-info">venenatis tellus ut, euismod est.</button>
+    <div id="question" class="">Lorem ipsum dolor sit amet,</div>
+    <div class="row">
+      <div class="col s1"></div>
+      <a id="answer_a" class="col s4 waves-effect waves-light btn-large green">consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.consectetur adipiscing elit.</a>
+      <div class="col s1"></div>
+      <a id="answer_b" class="col s4 waves-effect waves-light btn-large red">venenatis tellus ut, euismod est.</a>
+      <div class="col s1"></div>
     </div>
-    <div>
-      <button id="answer_c" type="button" class="btn btn-outline-info">consequat sollicitudin quis ut nibh.</button>
-      <button id="answer_d" type="button" class="btn btn-outline-info">venenatis eget neque ut.</button>
+    <div class="row">
+      <div class="col s1"></div>
+      <a id="answer_c" class="col s4 waves-effect waves-light btn-large">consequat sollicitudin quis ut nibh.</a>
+      <div class="col s1"></div>
+      <a id="answer_d" class="col s4 waves-effect waves-light btn-large">venenatis eget neque ut.</a>
+      <div class="col s1"></div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous">
-    </script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous">
-    </script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous">
-    </script>
+    <script type="text/javascript" src="lib/materialize/js/materialize.min.js"></script>
     <script type="text/javascript" src="src/scripts/main.js"></script>
   </body>
 
