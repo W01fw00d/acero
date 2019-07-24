@@ -3,7 +3,7 @@ WRONG_WAIT_SECONDS = 4500;
 
 points = 0;
 currentQuestion = 0;
-questions = new Questions().get();
+questions = this.shuffleArray(new Questions().get());
 n_questions = questions.length;
 
 function init() {
@@ -19,11 +19,11 @@ function nextQuestion() {
   } else {
     let text;
     if (points <= (n_questions / 2)) {
-      text = 'Ha completado el juego con una puntuación de solo ' + points + ' puntos.'
+      text = 'Ha completado el juego con una puntuación de solo ' + points + ' puntos de un total de ' + n_questions + '.'
         + ' Mi recomendación es que lea vuesa merced más, para así dejar de ser un analfabeto.';
     } else {
       text = '¡Felicidades! Vuesa merced ha completado el juego con una puntuación de '
-        + points + ' puntos. Sois todo un Reverter.'
+        + points + ' puntos de un total de ' + n_questions + '. Sois todo un Reverter.'
     }
 
     alert(text);

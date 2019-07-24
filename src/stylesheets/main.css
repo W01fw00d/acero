@@ -31,7 +31,7 @@ div {
 }
 
 #question {
-  height: 54px;
+  height: auto;
   line-height: 54px;
   padding: 0 28px;
 
